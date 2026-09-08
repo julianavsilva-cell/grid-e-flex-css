@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Imagem 2 — Exercício 10</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:#f2f2f2;font-family:Arial,sans-serif;display:flex;justify-content:center;align-items:center;padding:28px}
+.page{width:min(900px,96vw);display:flex;flex-direction:column;gap:18px}
+h1{margin:0;font-size:22px;text-align:center;color:#222}
+.exercise{background:#fff;padding:16px;border-radius:12px;box-shadow:0 4px 18px #0002;display:flex;justify-content:center}
+.grid{width:100%;max-width:760px;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,70px);gap:6px;background:#303030;padding:6px;border-radius:6px}
+.item{border-radius:4px;display:flex;align-items:center;justify-content:center;color:transparent;font-weight:bold}
+.note{font-size:13px;text-align:center;color:#666}
+</style>
+</head>
+<body>
+<main class="page">
+<h1>Imagem 2 — Exercício 10</h1>
+<section class="exercise">
+<div class="grid">
+<div class="item i1" style="grid-column:1 / span 2;grid-row:1 / span 2;background:#333333">1</div><div class="item i2" style="grid-column:3 / span 2;grid-row:1 / span 1;background:#333333">2</div><div class="item i3" style="grid-column:3 / span 1;grid-row:2 / span 1;background:#333333">3</div><div class="item i4" style="grid-column:4 / span 1;grid-row:2 / span 1;background:#333333">4</div><div class="item i5" style="grid-column:3 / span 1;grid-row:3 / span 1;background:#333333">5</div><div class="item i6" style="grid-column:4 / span 1;grid-row:3 / span 1;background:#333333">6</div>
+</div>
+</section>
+<div class="note">Estrutura principal com CSS Grid + Flexbox para alinhamento e centralização.</div>
+</main>
+</body>
+</html>
